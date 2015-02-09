@@ -10,6 +10,10 @@
 		180BC4E719E2D68A00EE70C2 /* OCTTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 180BC4E619E2D68A00EE70C2 /* OCTTextField.m */; };
 		541A8BFB19BE3A63002F0A80 /* OCTListActivityItemSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 541A8BFA19BE3A63002F0A80 /* OCTListActivityItemSource.m */; };
 		541A8BFE19BE40FC002F0A80 /* OCTTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 541A8BFD19BE40FC002F0A80 /* OCTTableViewCell.m */; };
+		54461F4B1A896AFB006439C1 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54461F4A1A896AFB006439C1 /* NotificationCenter.framework */; };
+		54461F511A896AFB006439C1 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54461F501A896AFB006439C1 /* TodayViewController.m */; };
+		54461F531A896AFB006439C1 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54461F521A896AFB006439C1 /* MainInterface.storyboard */; };
+		54461F561A896AFB006439C1 /* Add to List Widget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 54461F491A896AFB006439C1 /* Add to List Widget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		549B40591970170600893B2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 549B40581970170600893B2D /* Foundation.framework */; };
 		549B405B1970170600893B2D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 549B405A1970170600893B2D /* CoreGraphics.framework */; };
 		549B405D1970170600893B2D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 549B405C1970170600893B2D /* UIKit.framework */; };
@@ -20,6 +24,30 @@
 		54AC158319E2FF4500C277C5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54AC158219E2FF4500C277C5 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		54461F541A896AFB006439C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 549B404D1970170600893B2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54461F481A896AFB006439C1;
+			remoteInfo = "Add to List Widget";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		54461F5A1A896AFB006439C1 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				54461F561A896AFB006439C1 /* Add to List Widget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		180BC4E519E2D68A00EE70C2 /* OCTTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCTTextField.h; sourceTree = "<group>"; };
 		180BC4E619E2D68A00EE70C2 /* OCTTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCTTextField.m; sourceTree = "<group>"; };
@@ -27,6 +55,12 @@
 		541A8BFA19BE3A63002F0A80 /* OCTListActivityItemSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCTListActivityItemSource.m; sourceTree = "<group>"; };
 		541A8BFC19BE40FC002F0A80 /* OCTTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCTTableViewCell.h; sourceTree = "<group>"; };
 		541A8BFD19BE40FC002F0A80 /* OCTTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCTTableViewCell.m; sourceTree = "<group>"; };
+		54461F491A896AFB006439C1 /* Add to List Widget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Add to List Widget.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54461F4A1A896AFB006439C1 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		54461F4E1A896AFB006439C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54461F4F1A896AFB006439C1 /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		54461F501A896AFB006439C1 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		54461F521A896AFB006439C1 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
 		549B40551970170600893B2D /* List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = List.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		549B40581970170600893B2D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		549B405A1970170600893B2D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +82,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		54461F461A896AFB006439C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54461F4B1A896AFB006439C1 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		549B40521970170600893B2D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -61,11 +103,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		54461F4C1A896AFB006439C1 /* Add to List Widget */ = {
+			isa = PBXGroup;
+			children = (
+				54461F4F1A896AFB006439C1 /* TodayViewController.h */,
+				54461F501A896AFB006439C1 /* TodayViewController.m */,
+				54461F521A896AFB006439C1 /* MainInterface.storyboard */,
+				54461F4D1A896AFB006439C1 /* Supporting Files */,
+			);
+			path = "Add to List Widget";
+			sourceTree = "<group>";
+		};
+		54461F4D1A896AFB006439C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				54461F4E1A896AFB006439C1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		549B404C1970170600893B2D = {
 			isa = PBXGroup;
 			children = (
 				549B405E1970170600893B2D /* Todoo */,
 				549B40771970170600893B2D /* TodooTests */,
+				54461F4C1A896AFB006439C1 /* Add to List Widget */,
 				549B40571970170600893B2D /* Frameworks */,
 				54D4E71719C0FDE700AF5FCD /* List-Bridging-Header.h */,
 			);
@@ -75,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				549B40551970170600893B2D /* List.app */,
+				54461F491A896AFB006439C1 /* Add to List Widget.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -87,6 +150,7 @@
 				549B405A1970170600893B2D /* CoreGraphics.framework */,
 				549B405C1970170600893B2D /* UIKit.framework */,
 				549B40711970170600893B2D /* XCTest.framework */,
+				54461F4A1A896AFB006439C1 /* NotificationCenter.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -142,6 +206,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		54461F481A896AFB006439C1 /* Add to List Widget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54461F591A896AFB006439C1 /* Build configuration list for PBXNativeTarget "Add to List Widget" */;
+			buildPhases = (
+				54461F451A896AFB006439C1 /* Sources */,
+				54461F461A896AFB006439C1 /* Frameworks */,
+				54461F471A896AFB006439C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Add to List Widget";
+			productName = "Add to List Widget";
+			productReference = 54461F491A896AFB006439C1 /* Add to List Widget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		549B40541970170600893B2D /* List */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 549B40811970170600893B2D /* Build configuration list for PBXNativeTarget "List" */;
@@ -149,10 +230,12 @@
 				549B40511970170600893B2D /* Sources */,
 				549B40521970170600893B2D /* Frameworks */,
 				549B40531970170600893B2D /* Resources */,
+				54461F5A1A896AFB006439C1 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				54461F551A896AFB006439C1 /* PBXTargetDependency */,
 			);
 			name = List;
 			productName = Todoo;
@@ -169,6 +252,10 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Octoo Apps";
 				TargetAttributes = {
+					54461F481A896AFB006439C1 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = WSJXBQB984;
+					};
 					549B40541970170600893B2D = {
 						DevelopmentTeam = WSJXBQB984;
 					};
@@ -187,11 +274,20 @@
 			projectRoot = "";
 			targets = (
 				549B40541970170600893B2D /* List */,
+				54461F481A896AFB006439C1 /* Add to List Widget */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		54461F471A896AFB006439C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54461F531A896AFB006439C1 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		549B40531970170600893B2D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -204,6 +300,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		54461F451A896AFB006439C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54461F511A896AFB006439C1 /* TodayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		549B40511970170600893B2D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -218,6 +322,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54461F551A896AFB006439C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54461F481A896AFB006439C1 /* Add to List Widget */;
+			targetProxy = 54461F541A896AFB006439C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		549B40611970170600893B2D /* InfoPlist.strings */ = {
@@ -239,6 +351,42 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		54461F571A896AFB006439C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: hidde van der ploeg (WSJXBQB984)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Add to List Widget/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		54461F581A896AFB006439C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: hidde van der ploeg (WSJXBQB984)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Add to List Widget/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		549B407F1970170600893B2D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -351,6 +499,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		54461F591A896AFB006439C1 /* Build configuration list for PBXNativeTarget "Add to List Widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54461F571A896AFB006439C1 /* Debug */,
+				54461F581A896AFB006439C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		549B40501970170600893B2D /* Build configuration list for PBXProject "List" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
