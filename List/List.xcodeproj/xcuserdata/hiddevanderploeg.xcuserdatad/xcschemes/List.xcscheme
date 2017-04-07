@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0720"
+   LastUpgradeVersion = "0830"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5467343F1C89E9BF0062C6AA"
-               BuildableName = "Minimalist 2.app"
-               BlueprintName = "Minimalist 2"
-               ReferencedContainer = "container:Minimalist 2.xcodeproj">
+               BlueprintIdentifier = "54BD27871E9817A100D762D4"
+               BuildableName = "List.app"
+               BlueprintName = "List"
+               ReferencedContainer = "container:List.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,14 +28,34 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "54BD279B1E9817A200D762D4"
+               BuildableName = "ListTests.xctest"
+               BlueprintName = "ListTests"
+               ReferencedContainer = "container:List.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "54BD27A61E9817A200D762D4"
+               BuildableName = "ListUITests.xctest"
+               BlueprintName = "ListUITests"
+               ReferencedContainer = "container:List.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5467343F1C89E9BF0062C6AA"
-            BuildableName = "Minimalist 2.app"
-            BlueprintName = "Minimalist 2"
-            ReferencedContainer = "container:Minimalist 2.xcodeproj">
+            BlueprintIdentifier = "54BD27871E9817A100D762D4"
+            BuildableName = "List.app"
+            BlueprintName = "List"
+            ReferencedContainer = "container:List.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5467343F1C89E9BF0062C6AA"
-            BuildableName = "Minimalist 2.app"
-            BlueprintName = "Minimalist 2"
-            ReferencedContainer = "container:Minimalist 2.xcodeproj">
+            BlueprintIdentifier = "54BD27871E9817A100D762D4"
+            BuildableName = "List.app"
+            BlueprintName = "List"
+            ReferencedContainer = "container:List.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5467343F1C89E9BF0062C6AA"
-            BuildableName = "Minimalist 2.app"
-            BlueprintName = "Minimalist 2"
-            ReferencedContainer = "container:Minimalist 2.xcodeproj">
+            BlueprintIdentifier = "54BD27871E9817A100D762D4"
+            BuildableName = "List.app"
+            BlueprintName = "List"
+            ReferencedContainer = "container:List.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

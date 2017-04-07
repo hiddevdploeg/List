@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Minimalist 2.xcodeproj">
+      location = "self:List.xcodeproj">
    </FileRef>
 </Workspace>
