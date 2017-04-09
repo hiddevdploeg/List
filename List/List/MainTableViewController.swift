@@ -9,11 +9,11 @@
 import UIKit
 
 class MainTableViewController: UITableViewController {
-    
+
     private var tasks = [String]()
     private var completedTasks = [String]()
 
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         tasks = ["Koffie","Kaas","Salade"]
@@ -26,7 +26,7 @@ class MainTableViewController: UITableViewController {
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
-        
+
         return 2
     }
 
@@ -38,7 +38,7 @@ class MainTableViewController: UITableViewController {
         }
     }
 
-    
+
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "TaskCell", for: indexPath)
         if indexPath.section == 0 {
@@ -46,17 +46,17 @@ class MainTableViewController: UITableViewController {
         } else  {
             cell.textLabel?.text = completedTasks[indexPath.row]
         }
-        
-        
+
+
         return cell
     }
-    
+
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
         tableView.beginUpdates()
         tableView.delegate = self
         tableView.deleteRows(at: [indexPath], with: .fade)
-        
+
         if indexPath.section == 0 {
             let task = self.tasks[indexPath.row]
             self.tasks.remove(at: indexPath.row)
@@ -70,7 +70,6 @@ class MainTableViewController: UITableViewController {
             let newindex = IndexPath(row: 0, section: 0)
             tableView.insertRows(at: [newindex], with: .top)
         }
-        
         tableView.endUpdates()
     }
 
@@ -90,7 +89,7 @@ class MainTableViewController: UITableViewController {
             tableView.deleteRows(at: [indexPath], with: .fade)
         } else if editingStyle == .insert {
             // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-        }    
+        }
     }
     */
 
