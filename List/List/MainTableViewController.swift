@@ -13,16 +13,20 @@ class MainTableViewController: UITableViewController {
     private var tasks = [String]()
     private var completedTasks = [String]()
 
-
     override func viewDidLoad() {
         super.viewDidLoad()
         tasks = ["Koffie","Kaas","Salade"]
         tableView.rowHeight = 60
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
+        let refresh = UIRefreshControl()
+        refresh.backgroundColor = UIColor.darkGray
+        tableView.refreshControl = refresh
         self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
 
+    
+    func refreshEnd() {
+        self.refreshControl?.endRefreshing()
+    }
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -43,8 +47,10 @@ class MainTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "TaskCell", for: indexPath)
         if indexPath.section == 0 {
             cell.textLabel?.text = tasks[indexPath.row]
+            cell.textLabel?.textColor = UIColor.black
         } else  {
             cell.textLabel?.text = completedTasks[indexPath.row]
+            cell.textLabel?.textColor = UIColor.lightGray
         }
 
 
@@ -93,12 +99,10 @@ class MainTableViewController: UITableViewController {
     }
     */
 
-    /*
-    // Override to support rearranging the table view.
+        // Override to support rearranging the table view.
     override func tableView(_ tableView: UITableView, moveRowAt fromIndexPath: IndexPath, to: IndexPath) {
 
     }
-    */
 
     /*
     // Override to support conditional rearranging of the table view.

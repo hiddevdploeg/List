@@ -32,7 +32,7 @@
                             <outlet property="delegate" destination="SDN-gD-d4a" id="Obc-sj-Kcs"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="baD-cv-wdl"/>
+                    <navigationItem key="navigationItem" title="List" id="baD-cv-wdl"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkD-eU-Qzh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -43,9 +43,12 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="OIA-O7-wnP" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Wcm-KM-pMt">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="Wcm-KM-pMt">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
